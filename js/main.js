@@ -1,10 +1,10 @@
 'use strict';
 
-const foot = document.querySelector('.phrase');
 
-function ten (aliment){
+
+function ten (word){
     for (let i = 0; i < 10; i++) {
-       console.log (aliment);
+       console.log (word);
       }
 }
 ten('patata');
