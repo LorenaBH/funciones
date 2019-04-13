@@ -2,9 +2,11 @@
 
 const foot = document.querySelector('.phrase');
 
-function ten (){
+function ten (aliment){
     for (let i = 0; i < 10; i++) {
-        console.log('patata');
+       console.log (aliment);
       }
 }
-ten();
+ten('patata');
+ten('Aguacate');
+ten('Pizza');
