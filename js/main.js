@@ -7,4 +7,4 @@ function ten (aliment){
         console.log('patata');
       }
 }
-//ten('patata');
+ten();
