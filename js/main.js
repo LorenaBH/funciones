@@ -1,9 +1,5 @@
 'use strict';
 
-const aleatory1 = getRandomNumber(10);
-const aleatory2 = getRandomNumber(10);
-const aleatory3 = getRandomNumber(10);
-
 function getRandomNumber(max) {
     return Math.ceil(Math.random() * max);
   }
@@ -16,6 +12,7 @@ function ten (word,cantidad){
        console.log (word);
       }
 }
-ten('patata', aleatory1);
-ten('Aguacate',aleatory2);
-ten('Pizza',aleatory3);
+ten('patata',getRandomNumber(10) );
+ten('Aguacate',getRandomNumber(10));
+ten('Pizza',getRandomNumber(10));
+
