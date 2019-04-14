@@ -1,13 +1,13 @@
 'use strict';
 
 function getRandomNumber(max) {
-    return Math.ceil(Math.random() * max);
-  }
+  return Math.ceil(Math.random() * max);
+}
 function writeThis (word,cantidad){
-    for (let i = 0; i < cantidad; i++) {
+  for (let i = 0; i < cantidad; i++) {
     console.log (word);
-      }
-    }
+  }
+}
 writeThis('patata',getRandomNumber(10));
 writeThis('Aguacate',getRandomNumber(10));
 writeThis('Pizza',getRandomNumber(10));
@@ -34,7 +34,7 @@ const myWordList =  [
 function writeMyArray(arraycualquiera){
   for (const data of arraycualquiera){
     for (let i =0; i<data.total; i++){
-    console.log(data.text);
+      console.log(data.text);
     }
   }
 }
