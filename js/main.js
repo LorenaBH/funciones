@@ -3,8 +3,6 @@
 function getRandomNumber(max) {
     return Math.ceil(Math.random() * max);
   }
-  getRandomNumber(10);
-  const result = getRandomNumber(10);
   console.log(result);
 
 function ten (word,cantidad){
